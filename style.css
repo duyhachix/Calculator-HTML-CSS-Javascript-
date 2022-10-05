@@ -1,0 +1,68 @@
+body{
+  position: relative;
+  margin: 0;
+  background-image: linear-gradient( to right,#7b4397  ,#dc2430);
+  width: 100vw;
+  height: 100vh;
+}
+.container{
+  position: absolute;
+  width: 60vw;  
+  height: 80vw;
+  background-color: #fff;
+  border-radius: 10px ;
+}
+.display{
+  border-radius: 10px 10px 0 0 ;
+  height: 20%;
+  background-color: #333;
+}
+.result-display{
+
+}
+.buttons{
+  width: inherit;
+  display: flex;
+  flex-direction: row;
+}
+.button-number{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  
+}
+.button{
+  font-size: 24px;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #333;
+}
+
+.button-number-col1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.button-number-col2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.button-number-col3{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.button-math-symbols{
+
+}
+.row1{
+
+}
+.row2{
+
+}
+.equal{
+
+}
