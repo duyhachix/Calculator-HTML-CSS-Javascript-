@@ -1,68 +1,76 @@
-body{
-  position: relative;
-  margin: 0;
-  background-image: linear-gradient( to right,#7b4397  ,#dc2430);
-  width: 100vw;
-  height: 100vh;
+body {
+	position: relative;
+	margin: 0;
+	background-image: linear-gradient(to right, #7b4397, #dc2430);
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-.container{
-  position: absolute;
-  width: 60vw;  
-  height: 80vw;
-  background-color: #fff;
-  border-radius: 10px ;
+.container {
+	position: absolute;
+	width: 60vw;
+	height: 80vw;
+	background-color: #fff;
+	border-radius: 10px;
 }
-.display{
-  border-radius: 10px 10px 0 0 ;
-  height: 20%;
-  background-color: #333;
+.display {
+	border-radius: 10px 10px 0 0;
+	height: 20%;
+	background-color: #333;
 }
-.result-display{
-
+.result-display {
 }
-.buttons{
-  width: inherit;
-  display: flex;
-  flex-direction: row;
+.buttons {
+	height: 80%;
+	width: inherit;
+	display: flex;
+	flex-direction: row;
 }
-.button-number{
-  width: 80%;
-  height: 100%;
-  display: flex;
-  
+.button-number {
+	width: 80%;
+	height: 100%;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	background-color: #2196f3;
 }
-.button{
-  font-size: 24px;
-  width: 30px;
-  height: 30px;
-  border: 2px solid #333;
-}
-
-.button-number-col1{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.button {
+	font-size: 24px;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #333;
 }
 
-.button-number-col2{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.button-number-col1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
-.button-number-col3{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.button-math-symbols{
 
+.button-number-col1 .button {
+	width: 100%;
+	height: 100%;
 }
-.row1{
 
+.button-number-col2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
-.row2{
-
+.button-number-col3 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
-.equal{
-
+.button-math-symbols {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	background-color: #fd7200;
+}
+.row1 {
+}
+.row2 {
+}
+.equal {
 }
